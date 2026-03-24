@@ -29,7 +29,7 @@ const HomePage = () => {
     "36548",
     "435860",
   ];
-  // écupérer les détails des œuvres à partir de l'API
+  // Récupérer les détails des œuvres à partir de l'API
   useEffect(() => {
     Promise.all([
       // Chaque requête récupère les données d'une œuvre spécifique via son ID
@@ -71,7 +71,7 @@ const HomePage = () => {
         setArtworks(artworksJson); // Met à jour l'état artworks avec les données récupérées
       })
       .catch((err) =>
-        console.log("Erreur lors de la récupération des données :", err),
+        console.error("Erreur lors de la récupération des données :", err),
       );
   }, []);
 

@@ -4,9 +4,3 @@
   font-size: large;
   font-family: monospace;
 }
-
-.CardArtFavorites {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
