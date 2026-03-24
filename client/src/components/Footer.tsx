@@ -1,7 +1,7 @@
 import "./Footer.css";
 import facebook from "../assets/images/facebook.svg";
 import instagram from "../assets/images/instagram.svg";
-import twiter from "../assets/images/twitter.svg";
+import twitter from "../assets/images/twitter.svg";
 
 function Footer() {
   return (
@@ -17,7 +17,7 @@ function Footer() {
       <div>
         <div className="footer-logos">
           <img src={facebook} alt="logo facebook" />
-          <img src={twiter} alt="logo twiter" />
+          <img src={twitter} alt="logo twitter" />
           <img src={instagram} alt="logo instagram" />
         </div>
         <div className="footer-copyright">Copyright 2024</div>

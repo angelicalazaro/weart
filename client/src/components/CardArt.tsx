@@ -33,8 +33,6 @@ function CardArt({ id }: propsType) {
   const handleLike = () => {
     if (fetchArt) {
       toggleFavorite(fetchArt);
-    } else {
-      console.error("fetchArt is null and cannot be added to favorites.");
     }
   };
 
