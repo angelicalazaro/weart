@@ -1,6 +1,6 @@
 import "./Logo.css";
 
-import logoWeArt from "../assets/images/Logo.png";
+import logoWeArt from "../assets/images/logoWeArt.png";
 
 function Logo() {
   return (
